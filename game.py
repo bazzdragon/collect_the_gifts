@@ -11,6 +11,8 @@ SCREEN_HEIGHT = 600
 FPS = 60
 GAME_TIME = 30  # 30 seconds
 GIFT_COUNT = 10
+GIFT_VELOCITY_MIN = -1  # Minimum velocity for gift movement
+GIFT_VELOCITY_MAX = 1   # Maximum velocity for gift movement
 
 # Colors
 WHITE = (255, 255, 255)
@@ -25,8 +27,8 @@ class Gift:
         self.y = y
         self.size = 30
         self.color = RED
-        self.vx = random.uniform(-1, 1)  # Slow horizontal velocity
-        self.vy = random.uniform(-1, 1)  # Slow vertical velocity
+        self.vx = random.uniform(GIFT_VELOCITY_MIN, GIFT_VELOCITY_MAX)  # Slow horizontal velocity
+        self.vy = random.uniform(GIFT_VELOCITY_MIN, GIFT_VELOCITY_MAX)  # Slow vertical velocity
         self.being_dragged = False
         
     def update(self):

@@ -1,6 +1,6 @@
 # Collect the Gifts
 
-A fun pygame where you help Santa collect gifts into his bag!
+A fun pygame game where you help Santa collect gifts into his bag!
 
 ## Game Description
 

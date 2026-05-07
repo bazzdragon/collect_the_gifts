@@ -1,6 +1,6 @@
 # Collect the Gifts
 
-A fun pygame game where you help Santa collect gifts into his bag!
+A school project where i had to vibe code a christmas game.
 
 ## Game Description
 
